@@ -65,10 +65,11 @@ push()를 사용할 경우 새로만들기 개념이므로 채팅 데이터가 �
 
 
 
-- 최민진
 ## POS
-데이터들을 보여주기 위한 ListView를 사용하기 위해 정의된 데이터를 받아 List에 사용 될 View를 생성하고 관리하는 역할을 하는 Adapter를 이용하고
-ArrayList로 데이터들을 순서대로 나열할 수 있게 구현하였다.
+##### -최민진
+데이터들을 보여주기 위한 ListView를 사용하기 위해 정의된 데이터를 받아 List에 사용 될 View를 생성하고 관리하는 
+역할을 하는 Adapter를 이용하고 ArrayList로 데이터들을 순서대로 나열할 수 있게 구현하였다.
+
 ![2 code1](https://user-images.githubusercontent.com/80111309/119367657-250fde00-bced-11eb-9046-7707a938dcae.PNG)
 ![2 code2](https://user-images.githubusercontent.com/80111309/119367679-29d49200-bced-11eb-8ac9-a8c439628a26.PNG)
 
