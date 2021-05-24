@@ -1,7 +1,8 @@
 # 12-Weekly-Report
 ※코드는 Code Repository를 참고해주세요
 
-
+### [DATERBASE]
+##### -김윤경, 변예인, 최재원
 다음은 버튼을 눌렀을 때 호출되는 리스너이다. '버튼 누르면 수행 할 명령'에 파이어베이스로 데이터를 보내는 코드는
 
       button.setOnClickListener(new View.OnClickListener() {
@@ -39,14 +40,14 @@ push()를 사용할 경우 새로만들기 개념이므로 채팅 데이터가 �
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/79883718/119328980-ac465d00-bcbf-11eb-9bc7-757b4a7fe970.gif)
 
 
-#### 주문서 카카오계정과 연동
+#### * 주문서 카카오계정과 연동
  주문을 했을때 카카오API로 받은 이름을 넣어서 주문서를 분간해줌
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/79992109/119342712-6e9e0000-bcd0-11eb-92a7-983414927a99.gif)
 
 
 
 
-#### 앱의 진동벨 기능
+#### * 앱의 진동벨 기능
 
 카페에서 따로 진동벨을 받지않아도 제조완료된 음료알림을 앱으로 받을 수 있는 푸시알림을 구현하였다.
 코드에는 오류가 없지만 포스기역할(firebase)의 데이터에서 알림을 보내는 과정에서 문제가 생겨서 다음주까지 해결할 예정이다.
@@ -54,9 +55,11 @@ push()를 사용할 경우 새로만들기 개념이므로 채팅 데이터가 �
 ![image](https://user-images.githubusercontent.com/75411735/119341905-4cf04900-bccf-11eb-8ad8-24b5c664e437.png)
 
 
--전수아
-## 주문서 구현
+
+### [주문서 구현]
+##### -전수아
 기존에 웹뷰를 이용하여 html페이지를 연결시키려하여 html 웹페이지를 제작하였지만, 안드로이드 스튜디오 내에 직접 주문서를 올리게 하는 방식으로 변경되어, 안드로이드스튜디오로 주문서를 제작하였다
-.<img width="305" alt="주문서1" src="https://user-images.githubusercontent.com/79993772/119361142-4b7e4b00-bce6-11eb-9bfe-6791c93cf024.png">
+
+<img width="305" alt="주문서1" src="https://user-images.githubusercontent.com/79993772/119361142-4b7e4b00-bce6-11eb-9bfe-6791c93cf024.png">
 <img width="302" alt="주문서2" src="https://user-images.githubusercontent.com/79993772/119361167-53d68600-bce6-11eb-954e-d8840a74907c.png">
 
