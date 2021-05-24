@@ -35,3 +35,11 @@ push()를 사용할 경우 새로만들기 개념이므로 채팅 데이터가 �
 메뉴 클릭시 포스기에서 확인할 수 있게 'firebase 실시간 데이터베이스'에 데이터가 저장된다.
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/79883718/119328980-ac465d00-bcbf-11eb-9bc7-757b4a7fe970.gif)
+
+#### 앱의 진동벨 기능
+
+카페에서 따로 진동벨을 받지않아도 제조완료된 음료알림을 앱으로 받을 수 있는 푸시알림을 구현하였다.
+코드에는 오류가 없지만 포스기역할의 데이터에서 알림을 보내는 과정에서 문제가 생겨서 다음주까지 해결할 예정이다.
+
+![image](https://user-images.githubusercontent.com/75411735/119341905-4cf04900-bccf-11eb-8ad8-24b5c664e437.png)
+
