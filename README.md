@@ -19,7 +19,7 @@
 
 child("menu")는 JSON 데이터 형식에서 데이터의 '이름' 값을 의미한다.
 child("menu").child("aaa").setValue("2")를 해석해보자면 menu - aaa 항목의 값을 "2"로 덮어씌운다는 뜻이다. 
-기존 message - aaa 항목이 존재하지 않다면 새로 생성된다.
+기존 menu - aaa 항목이 존재하지 않다면 새로 생성된다.
 
 push()는 특정한 규칙의 child를 임의로 생성하면서 값을 넣는다.
 
