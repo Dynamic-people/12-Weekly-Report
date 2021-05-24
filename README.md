@@ -54,30 +54,9 @@ push()를 사용할 경우 새로만들기 개념이므로 채팅 데이터가 �
 ![image](https://user-images.githubusercontent.com/75411735/119341905-4cf04900-bccf-11eb-8ad8-24b5c664e437.png)
 
 
-#### POS
-
-데이터들을 보여주기 위한 ListView를 사용하기 위해 정의된 데이터를 받아 List에 사용 될 View를 생성하고 관리하는 역할인 Adapter를 이용해 
-데이터들을 나타내고 ArrayList로 데이터들을 순서대로 나타내주었다.
-
-![2 code1](https://user-images.githubusercontent.com/80111309/119360001-20dfc280-bce5-11eb-830d-b3d48e7da4db.PNG)
-![2 code2](https://user-images.githubusercontent.com/80111309/119360348-79af5b00-bce5-11eb-93c2-f962efe9bd14.PNG)
-
-위의 사진은 예제로 만들어 본 것이고 다음 주에 주문서에 작성된 주문들을 데이터베이스 연결을 통해 순서대로 나타나게 할 예정이다.
-
-
-
-
-첫 메인 화면에서 주문서 아이콘을 누르면 주문내역을 볼 수 있다.
-
-![1](https://user-images.githubusercontent.com/80111309/119360573-b713e880-bce5-11eb-849e-6e93a4ca897a.PNG)
-![2](https://user-images.githubusercontent.com/80111309/119360594-bbd89c80-bce5-11eb-8e6d-fb6f41287ca7.PNG)
-
-
-그 다음 종료 아이콘을 누르면 AlertDialog로 만든 알림창이 뜨면서 종료를 할 것인 지 물어보고 NO를 누르면 원래 화면으로 돌아가고 
-YES를 누르면 종료하게 된다.
-
-![3](https://user-images.githubusercontent.com/80111309/119360806-f7736680-bce5-11eb-86e9-d4fa6f25de3c.PNG)
-![3 code](https://user-images.githubusercontent.com/80111309/119360831-fe01de00-bce5-11eb-9bfe-c122bd911b24.PNG)
-
-
+-전수아
+## 주문서 구현
+기존에 웹뷰를 이용하여 html페이지를 연결시키려하여 html 웹페이지를 제작하였지만, 안드로이드 스튜디오 내에 직접 주문서를 올리게 하는 방식으로 변경되어, 안드로이드스튜디오로 주문서를 제작하였다
+.<img width="305" alt="주문서1" src="https://user-images.githubusercontent.com/79993772/119361142-4b7e4b00-bce6-11eb-9bfe-6791c93cf024.png">
+<img width="302" alt="주문서2" src="https://user-images.githubusercontent.com/79993772/119361167-53d68600-bce6-11eb-954e-d8840a74907c.png">
 
